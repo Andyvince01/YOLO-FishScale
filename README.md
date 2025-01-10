@@ -1,5 +1,5 @@
 >[!IMPORTANT]
->The full code repository is currently unavailable due to rights restrictions. I hope it will become accessible in the near future.
+>The full code repository is currently unavailable due to rights restrictions.
 
 # 🐠 YOLO-FishScale - Underwater Fish Detection
 <meta name="google-site-verification" content="6ISQvm6lvQJIlH2c-6RwcQ9sOfcgRtzJnaAwRyUBeVo" />
@@ -14,7 +14,7 @@ Freshwater ecosystems are facing significant challenges due to the extinction of
 
 This thesis presents a real-time system for detecting and tracking fish in underwater environments, utilizing a custom fish detector called **`YOLO-FishScale`** based on the `YOLOv8` algorithm. This detector addresses the challenge of detecting small fish, which vary in size and distance within frames. It enhances YOLOv8 by adding a new detection head that uses features from the $P_2$ layer and replaces the Conv module with `SPD-Conv`, improving performance on small and low-resolution targets. Additionally, `CBAM` (Convolutional Block Attention Mechanism) modules are integrated to enhance feature fusion, resulting in more accurate fish detection and tracking.
 
-![image](https://github.com/user-attachments/assets/2782c6c2-32dd-4a16-8b21-f3bd701e0d03)
+<!--![image](https://github.com/user-attachments/assets/2782c6c2-32dd-4a16-8b21-f3bd701e0d03)-->
 
 
 >[!NOTE]
